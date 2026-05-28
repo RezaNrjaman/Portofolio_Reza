@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Reza Nurjaman</title>
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome untuk Icon (Menggantikan Emote) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Reza<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home / Jumbotron -->
+    <section id="home" class="home">
+        <div class="container home-content">
+            <div class="home-text">
+                <h1>Halo, Saya <br> <span class="highlight">Reza Nurjaman</span></h1>
+                <p>Mahasiswa Universitas Pasundan | Web Developer</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary">Hubungi Saya <i class="fas fa-paper-plane"></i></a>
+                    <a href="#portfolio" class="btn btn-outline">Lihat Karya <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <!-- Foto default dari Unsplash, silakan ganti src-nya dengan foto Anda -->
+                <img src="reza.jpg" alt="Reza Nurjaman">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-info">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>Nama:</strong><br>
+                                Reza Nurjaman
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <strong>Tempat, Tanggal Lahir:</strong><br>
+                                Bandung, 12-12-2004
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <strong>Pendidikan:</strong><br>
+                                Mahasiswa Universitas Pasundan
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-text">
+                    <h3>Membangun Pengalaman Web yang Menarik</h3>
+                    <p>Saya adalah seorang mahasiswa di Universitas Pasundan yang memiliki ketertarikan mendalam pada
+                        teknologi dan pengembangan perangkat lunak, khususnya Web Development. Saya percaya bahwa desain
+                        yang baik dipadukan dengan kode yang bersih dapat menciptakan pengalaman pengguna yang luar
+                        biasa.</p>
+                    <p>Saya terus belajar dan mengeksplorasi teknologi terbaru untuk mengembangkan solusi digital yang
+                        kreatif dan fungsional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portofolio</h2>
+            <div class="portfolio-grid">
+                <!-- Card 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyek 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Website E-Commerce</h3>
+                        <p>Pembuatan antarmuka website toko online yang responsif dan modern.</p>
+                        <a href="#" class="portfolio-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyek 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sistem Manajemen</h3>
+                        <p>Aplikasi web untuk mengelola data dengan dashboard interaktif.</p>
+                        <a href="#" class="portfolio-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyek 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Landing Page Promosi</h3>
+                        <p>Halaman pendaratan dengan konversi tinggi dan desain elegan.</p>
+                        <a href="#" class="portfolio-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info-boxes">
+                    <div class="contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Lokasi</h4>
+                        <p>Bandung, Indonesia</p>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>hello@rezanurjaman.com</p>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-header">
+                        <h3>Kirim Pesan</h3>
+                        <p>Tinggalkan pesan Anda, saya akan membalasnya secepat mungkin.</p>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" required placeholder="Nama Lengkap">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" required placeholder="Alamat Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tulis pesan Anda di sini..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Kirim Pesan <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>Reza<span>.</span></h2>
+            </div>
+            <p>Dibuat dengan <i class="fas fa-heart"></i> by <a href="https://instagram.com/RezaNrjaman" target="_blank"
+                    class="footer-link">@RezaNrjaman</a></p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/RezaNrjaman" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Reza Nurjaman. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
